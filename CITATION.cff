@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the accompanying article."
+title: "CPWI: State-Dependent Dynamical Inversion Reproducibility Code"
+authors:
+  - family-names: "Filardo"
+    given-names: "Gautier-Edouard"
+    orcid: "https://orcid.org/0009-0005-8310-2065"
+version: 1.0.0
+date-released: 2026-09-08
+repository-code: "https://github.com/gautierfilardo-efrei/cpwi-post-quantum-dynamical-inversion"
+license: MIT

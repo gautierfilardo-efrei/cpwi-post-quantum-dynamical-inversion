@@ -1,11 +1,24 @@
 cff-version: 1.2.0
-message: "If you use this software, please cite the accompanying article."
-title: "CPWI: State-Dependent Dynamical Inversion Reproducibility Code"
+message: "Please cite the exact commit or archived version used. This is development research software, not a security-certified cryptosystem."
+type: software
+title: "CPWI: finite-instance experiments and structural audit"
 authors:
-  - family-names: "Filardo"
-    given-names: "Gautier-Edouard"
+  - family-names: Filardo
+    given-names: Gautier-Edouard
     orcid: "https://orcid.org/0009-0005-8310-2065"
-version: 1.0.0
-date-released: 2026-09-08
 repository-code: "https://github.com/gautierfilardo-efrei/cpwi-post-quantum-dynamical-inversion"
+url: "https://github.com/gautierfilardo-efrei/cpwi-post-quantum-dynamical-inversion"
 license: MIT
+abstract: >-
+  Reference implementation and finite-instance diagnostics for coupled
+  permutation-word inversion. Includes independent reproduction checks,
+  collision propagation, layered random-map comparisons, a bounded-state
+  inversion algorithm, endpoint-distance checks and exploratory invariant
+  statistics. These materials do not establish classical or post-quantum
+  security and do not define a deployable cryptosystem.
+keywords:
+  - permutation groups
+  - inversion
+  - post-quantum cryptography
+  - reproducibility
+  - cryptanalysis

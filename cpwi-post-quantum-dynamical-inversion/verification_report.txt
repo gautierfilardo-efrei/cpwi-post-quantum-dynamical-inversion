@@ -1,0 +1,31 @@
+CPWI reproducibility and finite-instance experiment report
+==========================================================
+
+IMPORTANT:
+These finite-size experiments do not prove classical or post-quantum security.
+
+Relabelling-collapse finite check:
+  seed: 20260828
+  n: 10
+  m: 8
+  inputs_checked: 1024
+  distinct_branch_sequences: 1024
+  bijection_verified: True
+  endpoint_identity_verified: True
+
+CPWI forward-map sanity check:
+  seed: 20260908
+  n: 8
+  m: 8
+  deterministic: True
+  output_in_Am_squared: True
+
+Parameter rows written: 3
+Word-recurrence rows written: 13
+Collision experiment rows written: 54
+Inversion experiment rows written: 15
+Avalanche experiment rows written: 36
+Structural-invariant rows written: 1728
+
+Output directory:
+  /mnt/data/results

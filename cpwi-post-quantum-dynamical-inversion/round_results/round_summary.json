@@ -1,0 +1,118 @@
+{
+  "R1": {
+    "5": {
+      "maps": 6,
+      "image_density": 0.6783796296296295,
+      "mean_preimages_reachable": 1.869351851851852
+    },
+    "6": {
+      "maps": 2,
+      "image_density": 0.6150925925925925,
+      "mean_preimages_reachable": 2.1285185185185185
+    }
+  },
+  "R2": {
+    "m": 5,
+    "trials": 120,
+    "mean_preimages_producing_branch": 1.7083333333333333,
+    "mean_preimages_other_branch": 0.9166666666666666,
+    "fraction_other_branch_solvable": 0.6666666666666666,
+    "random_map_values": {
+      "producing": 2.0,
+      "other": 1.0,
+      "other_solvable": 0.6321205588285577
+    }
+  },
+  "R2b": {
+    "m": 5,
+    "trials": 200,
+    "mean_backward_children": 2.195,
+    "fraction_dead": 0.115,
+    "random_map_value": 2.0
+  },
+  "R3": {
+    "systems_per_degree": 5,
+    "budget": 300000,
+    "solved": {
+      "6": 5,
+      "7": 5,
+      "8": 5,
+      "9": 5,
+      "10": 5,
+      "11": 5,
+      "12": 5,
+      "13": 5
+    },
+    "exhausted": {
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0,
+      "12": 0,
+      "13": 0
+    },
+    "all_solutions_verified": true,
+    "all_elimination_checks_hold": true,
+    "fit": {
+      "slope_bits_per_degree": 1.9781730223959162,
+      "intercept": -9.162293823653334,
+      "fitted_on": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "medians": {
+        "6": 21,
+        "7": 62,
+        "8": 205,
+        "9": 274,
+        "10": 872,
+        "11": 6087,
+        "12": 19793,
+        "13": 157089
+      },
+      "extrapolated_log2_nodes": {
+        "36": 62.05193498259964,
+        "48": 85.79001125135065,
+        "59": 107.54991449770573,
+        "67": 123.37529867687306
+      }
+    },
+    "round_hardness_degree": {
+      "128": 70,
+      "192": 102,
+      "256": 135
+    },
+    "combined_attack_log2_cost": {
+      "(256,36)": 190.05193498259965,
+      "(384,48)": 277.7900112513506,
+      "(512,59)": 363.54991449770574
+    },
+    "note": "log2(nodes) = slope*m + intercept fitted on medians over m >= 8; extrapolation beyond the measured range is an assumption, not a bound."
+  },
+  "R9": {
+    "cases": 4,
+    "all_valid": true,
+    "all_planted_recovered": true,
+    "elimination_failures": 0
+  },
+  "solver_cross_check": {
+    "m": 5,
+    "trials": 30,
+    "agree": 30
+  },
+  "environment": {
+    "python": "3.11.16 | packaged by conda-forge | (main, Sep  1 2026, 16:26:32) [Clang 19.1.7 ]",
+    "platform": "macOS-26.6.2-arm64-arm-64bit",
+    "script_sha256": "5516245a50e6f14aaf4a1645e7cc527aa76147c31ca68dbbe3158ef7b4a4e18f",
+    "reproduce_sha256": "b74e0fabb72ec6f2c84c24f7edb01129ba6e2227269647a6ab898556f0a6ef8a",
+    "quick": false,
+    "wall_seconds": 294.70921737499884,
+    "timing_policy": "Local elapsed times only; no hardware-normalised claims."
+  }
+}

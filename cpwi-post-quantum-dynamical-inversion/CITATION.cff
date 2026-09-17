@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "Please cite the exact release or commit used. This is development research software, not a security-certified cryptosystem."
+type: software
+title: "CPWI: inverting coupled permutation-word recurrences over alternating groups"
+version: 1.2.0
+authors:
+  - family-names: Filardo
+    given-names: Gautier-Edouard
+    orcid: "https://orcid.org/0009-0005-8310-2065"
+    affiliation: "Efrei Research Lab, Efrei Paris Panthéon-Assas"
+repository-code: "https://github.com/gautierfilardo-efrei/cpwi-post-quantum-dynamical-inversion"
+url: "https://github.com/gautierfilardo-efrei/cpwi-post-quantum-dynamical-inversion"
+license: MIT
+abstract: >-
+  Reference implementation and cryptanalysis of coupled permutation-word
+  inversion (CPWI) over alternating groups. Includes the forward map and
+  its original finite-instance diagnostics, an independent audit with
+  layered state-merging inversion and collision comparators, a
+  constraint-propagation solver for the single-round two-register word
+  system with backward end-to-end inversion and a measured cost curve, and
+  an exact bit-vector encoding solved with Z3. These materials establish
+  neither classical nor post-quantum security and define no deployable
+  cryptosystem.
+keywords:
+  - alternating groups
+  - group-based cryptography
+  - one-way functions
+  - cryptanalysis
+  - meet-in-the-middle
+  - SMT solving
+  - reproducibility

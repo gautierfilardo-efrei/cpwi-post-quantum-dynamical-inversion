@@ -1,0 +1,317 @@
+{
+  "original_checks": [
+    {
+      "check": "parameter_table.csv",
+      "rows": 3,
+      "cells": 24,
+      "passed": true
+    },
+    {
+      "check": "word_recurrence.csv",
+      "rows": 13,
+      "cells": 39,
+      "passed": true
+    },
+    {
+      "check": "inversion_experiment.csv",
+      "rows": 15,
+      "cells": 120,
+      "passed": true
+    },
+    {
+      "check": "avalanche_experiment.csv",
+      "rows": 36,
+      "cells": 288,
+      "passed": true
+    },
+    {
+      "check": "structural_invariants.csv",
+      "rows": 1728,
+      "cells": 24192,
+      "passed": true
+    },
+    {
+      "check": "collision_experiment.csv",
+      "rows": 54,
+      "cells": 270,
+      "passed": true
+    }
+  ],
+  "independent_forward_inputs_checked": 834,
+  "relabelling_check": {
+    "seed": 20260828,
+    "n": 10,
+    "m": 8,
+    "inputs_checked": 1024,
+    "distinct_branch_sequences": 1024,
+    "bijection_verified": true,
+    "endpoint_identity_verified": true
+  },
+  "literal_original_rerun": [
+    {
+      "file": "parameter_table.csv",
+      "rows": 3,
+      "cells_compared": 24,
+      "passed": true
+    },
+    {
+      "file": "word_recurrence.csv",
+      "rows": 13,
+      "cells_compared": 39,
+      "passed": true
+    },
+    {
+      "file": "collision_experiment.csv",
+      "rows": 54,
+      "cells_compared": 432,
+      "passed": true
+    },
+    {
+      "file": "inversion_experiment.csv",
+      "rows": 15,
+      "cells_compared": 120,
+      "passed": true
+    },
+    {
+      "file": "avalanche_experiment.csv",
+      "rows": 36,
+      "cells_compared": 288,
+      "passed": true
+    },
+    {
+      "file": "structural_invariants.csv",
+      "rows": 1728,
+      "cells_compared": 24192,
+      "passed": true
+    }
+  ],
+  "prefix_audit_rows": 486,
+  "collision_summary_at_n14": [
+    {
+      "n": 14,
+      "m": 5,
+      "instances": 3,
+      "state_space_cardinality": 3600,
+      "observed_pairs_total": 214552,
+      "independent_random_expectation_total": 111841.28,
+      "layered_random_expectation_total": 223525.09523407492,
+      "ratio_to_independent_random": 1.9183614493682475,
+      "ratio_to_layered_random": 0.9598564303275284,
+      "distinct_outputs_min": 2575,
+      "distinct_outputs_max": 2727
+    },
+    {
+      "n": 14,
+      "m": 6,
+      "instances": 3,
+      "state_space_cardinality": 129600,
+      "observed_pairs_total": 6260,
+      "independent_random_expectation_total": 3106.702222222222,
+      "layered_random_expectation_total": 6210.7018611773465,
+      "ratio_to_independent_random": 2.0149983977293537,
+      "ratio_to_layered_random": 1.0079376115493182,
+      "distinct_outputs_min": 14445,
+      "distinct_outputs_max": 14589
+    },
+    {
+      "n": 14,
+      "m": 8,
+      "instances": 3,
+      "state_space_cardinality": 406425600,
+      "observed_pairs_total": 2,
+      "independent_random_expectation_total": 0.9906575963718821,
+      "layered_random_expectation_total": 1.980468627039932,
+      "ratio_to_independent_random": 2.018861014466215,
+      "ratio_to_layered_random": 1.0098619956374972,
+      "distinct_outputs_min": 16382,
+      "distinct_outputs_max": 16384
+    }
+  ],
+  "avalanche_summary": [
+    {
+      "m": 6,
+      "comparisons": 384,
+      "mean_distance": 0.8270399305555555,
+      "population_stdev": 0.124913880622681,
+      "independent_uniform_reference": 0.8333333333333334,
+      "minimum": 0.25,
+      "maximum": 1.0
+    },
+    {
+      "m": 8,
+      "comparisons": 384,
+      "mean_distance": 0.8697916666666666,
+      "population_stdev": 0.08823476221925737,
+      "independent_uniform_reference": 0.875,
+      "minimum": 0.625,
+      "maximum": 1.0
+    },
+    {
+      "m": 10,
+      "comparisons": 384,
+      "mean_distance": 0.8936197916666666,
+      "population_stdev": 0.07407183467164333,
+      "independent_uniform_reference": 0.9,
+      "minimum": 0.6,
+      "maximum": 1.0
+    }
+  ],
+  "last_bit_identity_checks": 1152,
+  "state_merging_experiments": [
+    {
+      "n": 16,
+      "m": 5,
+      "seed": 701,
+      "secret_value_lsb": 11337,
+      "recovered_value": 13632,
+      "transition_evaluations": 25848,
+      "peak_frontier_states": 2926,
+      "final_frontier_states": 2926,
+      "target_preimage_verified": true,
+      "recovered_original_secret": false,
+      "elapsed_seconds": 0.031428399,
+      "state_bound": 3600,
+      "full_input_space": 65536
+    },
+    {
+      "n": 16,
+      "m": 5,
+      "seed": 702,
+      "secret_value_lsb": 14580,
+      "recovered_value": 25376,
+      "transition_evaluations": 25380,
+      "peak_frontier_states": 2945,
+      "final_frontier_states": 2945,
+      "target_preimage_verified": true,
+      "recovered_original_secret": false,
+      "elapsed_seconds": 0.030858269,
+      "state_bound": 3600,
+      "full_input_space": 65536
+    },
+    {
+      "n": 16,
+      "m": 5,
+      "seed": 703,
+      "secret_value_lsb": 2364,
+      "recovered_value": 49040,
+      "transition_evaluations": 25930,
+      "peak_frontier_states": 2887,
+      "final_frontier_states": 2887,
+      "target_preimage_verified": true,
+      "recovered_original_secret": false,
+      "elapsed_seconds": 0.029718044,
+      "state_bound": 3600,
+      "full_input_space": 65536
+    },
+    {
+      "n": 24,
+      "m": 5,
+      "seed": 701,
+      "secret_value_lsb": 8581339,
+      "recovered_value": 10125312,
+      "transition_evaluations": 74682,
+      "peak_frontier_states": 3134,
+      "final_frontier_states": 3052,
+      "target_preimage_verified": true,
+      "recovered_original_secret": false,
+      "elapsed_seconds": 0.091328558,
+      "state_bound": 3600,
+      "full_input_space": 16777216
+    },
+    {
+      "n": 24,
+      "m": 5,
+      "seed": 702,
+      "secret_value_lsb": 4804946,
+      "recovered_value": 2301952,
+      "transition_evaluations": 73026,
+      "peak_frontier_states": 3061,
+      "final_frontier_states": 3061,
+      "target_preimage_verified": true,
+      "recovered_original_secret": false,
+      "elapsed_seconds": 0.119926926,
+      "state_bound": 3600,
+      "full_input_space": 16777216
+    },
+    {
+      "n": 24,
+      "m": 5,
+      "seed": 703,
+      "secret_value_lsb": 322099,
+      "recovered_value": 339968,
+      "transition_evaluations": 73948,
+      "peak_frontier_states": 3117,
+      "final_frontier_states": 2921,
+      "target_preimage_verified": true,
+      "recovered_original_secret": false,
+      "elapsed_seconds": 0.084771868,
+      "state_bound": 3600,
+      "full_input_space": 16777216
+    },
+    {
+      "n": 32,
+      "m": 5,
+      "seed": 701,
+      "secret_value_lsb": 2731819989,
+      "recovered_value": 2147483648,
+      "transition_evaluations": 122734,
+      "peak_frontier_states": 3098,
+      "final_frontier_states": 2908,
+      "target_preimage_verified": true,
+      "recovered_original_secret": false,
+      "elapsed_seconds": 0.1446656,
+      "state_bound": 3600,
+      "full_input_space": 4294967296
+    },
+    {
+      "n": 32,
+      "m": 5,
+      "seed": 702,
+      "secret_value_lsb": 1218848918,
+      "recovered_value": 428343296,
+      "transition_evaluations": 122410,
+      "peak_frontier_states": 3166,
+      "final_frontier_states": 3039,
+      "target_preimage_verified": true,
+      "recovered_original_secret": false,
+      "elapsed_seconds": 0.146327482,
+      "state_bound": 3600,
+      "full_input_space": 4294967296
+    },
+    {
+      "n": 32,
+      "m": 5,
+      "seed": 703,
+      "secret_value_lsb": 1082289983,
+      "recovered_value": 1132986368,
+      "transition_evaluations": 121272,
+      "peak_frontier_states": 3111,
+      "final_frontier_states": 2958,
+      "target_preimage_verified": true,
+      "recovered_original_secret": false,
+      "elapsed_seconds": 0.141390561,
+      "state_bound": 3600,
+      "full_input_space": 4294967296
+    }
+  ],
+  "structural_screen": {
+    "tests": 162,
+    "permutations": 999,
+    "largest_absolute_r": 0.329552667753009,
+    "strongest_test": {
+      "n": 8,
+      "m": 10,
+      "seed": 602,
+      "metric": "u_order",
+      "samples": 64,
+      "pearson_r": -0.329552667753009,
+      "defined": true,
+      "permutations": 999,
+      "unadjusted_randomisation_p": 0.008,
+      "global_maxT_p": 0.713
+    },
+    "maxT_rejections_at_0_05": 0,
+    "interpretation": "Exploratory within-instance weight/invariant screen only; not a leakage bound."
+  },
+  "security_status": "No demonstrated average-case or post-quantum security; fixed-small-state inversion succeeds."
+}

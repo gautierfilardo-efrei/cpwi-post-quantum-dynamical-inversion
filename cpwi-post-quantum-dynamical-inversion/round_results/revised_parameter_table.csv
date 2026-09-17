@@ -1,0 +1,4 @@
+target_bits,input_bits_n,capacity_degree,round_hardness_degree,alternating_group_degree_m,public_description_kib,elementary_image_operations_upper_bound,basis
+128,384,48,70,70,91.99462890625,161280,n = 3*lambda; m from the fitted round-solver cost curve; not a recommendation
+192,576,65,102,102,200.98681640625,352512,n = 3*lambda; m from the fitted round-solver cost curve; not a recommendation
+256,768,80,135,135,405.263671875,622080,n = 3*lambda; m from the fitted round-solver cost curve; not a recommendation

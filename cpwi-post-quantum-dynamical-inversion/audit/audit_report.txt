@@ -1,0 +1,14 @@
+CPWI AUDIT — deterministic data checks and finite-state limitations
+====================================================================
+Original deterministic dataset checks: 6/6 passed.
+Independent direct-index forward evaluations: 834 passed.
+Weighted prefix audit rows: 486; all terminal counts matched.
+Last-bit distance identities checked: 1152.
+State-merging inversions: 9/9 valid preimages.
+Invariant screen tests: 162; max |r|=0.329552668.
+Global randomisation p for strongest test: 0.713000.
+
+No security certification follows from these checks.
+A transition evaluation is not a full n-round forward evaluation.
+New elapsed times depend on the local execution environment.
+Raw archived timings are preserved, not claimed to be Mac timings.

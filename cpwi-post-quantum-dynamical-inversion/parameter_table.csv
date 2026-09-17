@@ -1,0 +1,4 @@
+generic_quantum_target_bits,input_bits_n,collision_margin_bits_s,alternating_group_degree_m,log2_output_space,public_description_kib,naive_output_bits,elementary_image_operations_upper_bound
+128,256,16,36,274.188657,27.052734,432,55296
+192,384,16,48,403.899144,54.070312,576,110592
+256,512,16,59,530.45208,88.586426,708,181248
